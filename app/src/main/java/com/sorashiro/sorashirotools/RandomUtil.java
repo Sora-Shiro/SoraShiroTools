@@ -11,7 +11,7 @@ import java.util.HashSet;
  */
 
 public class RandomUtil {
-    
+
     /**
      * 随机指定范围内N个不重复的数
      * 最简单最基本的方法
