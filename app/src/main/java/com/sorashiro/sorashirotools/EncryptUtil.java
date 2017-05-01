@@ -9,7 +9,7 @@ import java.security.NoSuchAlgorithmException;
 
 /**
  * @author Sora
- * @date 2016/11/7
+ * @date 2016.11.7
  * <p>
  * Encrypt util class, support SHA-256 and SHA-512.
  * 加密工具类，支持 SHA-256 和 SHA-512。

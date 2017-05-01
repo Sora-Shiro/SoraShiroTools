@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 
 /**
  * @author Sora
- * @date 2016/11/7
+ * @date 2016.11.7
  * <p>
  * A class to use SharedPreferences conveniently.
  * MUST call init() BEFORE call other methods!

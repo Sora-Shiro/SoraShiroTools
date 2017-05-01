@@ -3,10 +3,9 @@ package com.sorashiro.sorashirotools;
 /**
  * @author Sora
  * @date 2016.5.27
- *
+ * <p>
  * ByteTool util class.
  * 字节处理工具类。
- *
  */
 
 public class ByteTool {
@@ -14,8 +13,8 @@ public class ByteTool {
     /**
      * 转换short为byte
      *
-     * @param b byte[]
-     * @param s 需要转换的short
+     * @param b     byte[]
+     * @param s     需要转换的short
      * @param index 第几位开始取
      * @return short
      */
@@ -27,8 +26,8 @@ public class ByteTool {
     /**
      * 通过byte数组取到short
      *
-     * @param b byte[]
-     * @param index  第几位开始取
+     * @param b     byte[]
+     * @param index 第几位开始取
      * @return short
      */
     public static short getShort(byte[] b, int index) {
@@ -37,29 +36,32 @@ public class ByteTool {
 
     /**
      * 将data字节型数据转换为0~255 (0xFF 即BYTE)
+     *
      * @param data byte
      * @return int
      */
-    public static int getUnsignedByte (byte data){
-        return data&0x0FF ;
+    public static int getUnsignedByte(byte data) {
+        return data & 0x0FF;
     }
 
     /**
      * 将data字节型数据转换为0~65535 (0xFFFF 即 WORD)
+     *
      * @param data short
      * @return int
      */
-    public static int getUnsignedByte (short data){
-        return data&0x0FFFF;
+    public static int getUnsignedByte(short data) {
+        return data & 0x0FFFF;
     }
 
     /**
      * 将int数据转换为0~4294967295 (0xFFFFFFFF即DWORD)
+     *
      * @param data int
      * @return long
      */
-    public static long getUnsignedIntt (int data){
-        return data&0x0FFFFFFFF ;
+    public static long getUnsignedIntt(int data) {
+        return data & 0x0FFFFFFFF;
     }
 
 

@@ -5,7 +5,7 @@ import android.view.View;
 
 /**
  * @author Sora
- * @date 2016/11/16
+ * @date 2016.11.16
  * <p>
  * A util class about animation.
  * 动画相关处理类

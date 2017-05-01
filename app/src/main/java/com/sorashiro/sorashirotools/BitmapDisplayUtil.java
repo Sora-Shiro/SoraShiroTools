@@ -5,15 +5,15 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
 /**
- * Created by GameKing on 2016/5/28.
- *
- * Compressed image util.
- * 压缩图片工具类。
- *
+ * @author Sora
+ * @date 2016.5.25
+ * <p>
+ * Compressed image util.Haven't been tested.
+ * 压缩图片工具类。未测试。
+ * <p>
  * 示例eg:
  * mImageView.setImageBitmap(
  * decodeSampledBitmapFromResource(getResources(), R.id.myimage, 100, 100));
- *
  */
 
 public class BitmapDisplayUtil {
@@ -35,6 +35,7 @@ public class BitmapDisplayUtil {
         }
         return inSampleSize;
     }
+
     //获取压缩后的Bitmap
     public static Bitmap decodeSampledBitmapFromResource(Resources res, int resId,
                                                          int reqWidth, int reqHeight) {

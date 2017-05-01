@@ -5,12 +5,11 @@ import android.content.Context;
 /**
  * @author Sora
  * @date 2016.5.27
- *
+ * <p>
  * Sql util.
  * Should be improved, not recommended for use.
  * SQL工具类。
  * 不推荐使用，今后会完善。
- *
  */
 
 /**
