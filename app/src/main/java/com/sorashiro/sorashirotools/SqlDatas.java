@@ -1,8 +1,15 @@
 package com.sorashiro.sorashirotools;
 
 /**
- * Created by GameKing on 2016/5/27.
+ * @author Sora
+ * @date 2016.5.27
+ * <p>
+ * Sql util.
+ * Should be improved, not recommended for use.
+ * SQL工具类。
+ * 不推荐使用，今后会完善。
  */
+
 public class SqlDatas {
 
     //在这里设定SQL里每一行的基本数据

@@ -3,7 +3,17 @@ package com.sorashiro.sorashirotools;
 import android.content.Context;
 
 /**
- * Created by GameKing on 2016/5/27.
+ * @author Sora
+ * @date 2016.5.27
+ *
+ * Sql util.
+ * Should be improved, not recommended for use.
+ * SQL工具类。
+ * 不推荐使用，今后会完善。
+ *
+ */
+
+/**
  * 这个类是SqlDatasHelper类的抽象封装
  * 其他类要操作数据的时候最好调用这个类的getSqlDatasManager方法
  * 查询单行数据的时候推荐用queryDatas()后

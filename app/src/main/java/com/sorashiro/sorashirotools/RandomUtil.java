@@ -1,23 +1,19 @@
 package com.sorashiro.sorashirotools;
 
-import java.util.HashSet;
-
 /**
  * @author Sora
  * @date 2016/11/6
  *
- * 跟随机相关的工具类
+ * Random util class.
+ * 跟随机相关的工具类。
  *
  */
 
 public class RandomUtil {
 
     /**
-     * 随机指定范围内N个不重复的数
-     * 最简单最基本的方法
-     * @param min 指定范围最小值
-     * @param max 指定范围最大值
-     * @param n 随机数个数
+     * Generate N non redundant numbers in a range randomly.
+     * 随机生成N个在指定范围内不重复的数。
      */
     public static int[] RandomCommon(int min, int max, int n){
         if (n > (max - min + 1) || max < min) {

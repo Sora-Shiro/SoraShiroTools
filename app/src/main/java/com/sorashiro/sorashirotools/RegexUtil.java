@@ -4,9 +4,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by GameKing on 2016/7/25.
+ * @author Sora
+ * @date 2016.7.25
+ *
+ * Regex util class.
+ * 正则表达式工具类。
+ *
  */
-public class RegexTools {
+
+public class RegexUtil {
 
     /**
      * 判断手机号码是否合法

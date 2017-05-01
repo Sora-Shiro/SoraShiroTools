@@ -8,7 +8,9 @@ import android.widget.Toast;
  * @author Sora
  * @date 2016/11/5
  *
- * 跟调试和显示Toast相关的工具类，懒到一定境界的产物
+ * A util class about debug and toast.
+ * Too lazy to produce this class.
+ * 跟调试和显示Toast相关的工具类，懒到一定境界的产物。
  *
  */
 

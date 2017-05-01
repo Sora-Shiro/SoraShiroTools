@@ -8,8 +8,16 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by GameKing on 2016/5/27.
+ * @author Sora
+ * @date 2016.5.27
+ *
+ * Sql util.
+ * Should be improved, not recommended for use.
+ * SQL工具类。
+ * 不推荐使用，今后会完善。
+ *
  */
+
 public class SqlDatasHelper extends SQLiteOpenHelper {
 
     public static final String DB_NAME = "highscore.sqlite";

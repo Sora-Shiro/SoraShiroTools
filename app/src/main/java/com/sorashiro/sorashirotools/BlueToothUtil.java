@@ -1,8 +1,4 @@
-package sorashirotools;
-
-/**
- * Created by GameKing on 2016/4/29.
- */
+package com.sorashiro.sorashirotools;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -20,12 +16,15 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Bluetooth 管理类
+ * @author Sora
+ * @date 2016.4.29
  *
- * @author ifeegoo www.ifeegoo.com
+ * BlueTooth util class.
+ * 蓝牙工具类。
  *
  */
-public class BlueToothManager
+
+public class BlueToothUtil
 {
 
     /**

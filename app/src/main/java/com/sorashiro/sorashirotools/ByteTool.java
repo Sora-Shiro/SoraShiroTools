@@ -1,8 +1,14 @@
 package com.sorashiro.sorashirotools;
 
 /**
- * Created by GameKing on 2016/5/27.
+ * @author Sora
+ * @date 2016.5.27
+ *
+ * ByteTool util class.
+ * 字节处理工具类。
+ *
  */
+
 public class ByteTool {
 
     /**

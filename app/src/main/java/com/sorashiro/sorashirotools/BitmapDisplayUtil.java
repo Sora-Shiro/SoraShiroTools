@@ -7,14 +7,16 @@ import android.graphics.BitmapFactory;
 /**
  * Created by GameKing on 2016/5/28.
  *
- * 压缩图片
+ * Compressed image util.
+ * 压缩图片工具类。
  *
- * 调用语句eg:
+ * 示例eg:
  * mImageView.setImageBitmap(
  * decodeSampledBitmapFromResource(getResources(), R.id.myimage, 100, 100));
  *
  */
-public class BitmapDisplay {
+
+public class BitmapDisplayUtil {
 
     //计算压缩比率
     public static int calculateInSampleSize(BitmapFactory.Options options,
