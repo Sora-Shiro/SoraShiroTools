@@ -177,4 +177,25 @@ public class ShapeUtil {
         return shape;
     }
 
+    public static ShapeDrawable getNothingDrawable() {
+        Shape shape = new Shape() {
+            float w;
+            float h;
+            Path path = new Path();
+
+            @Override
+            protected void onResize(float width, float height) {
+                this.w = width;
+                this.h = height;
+            }
+
+            @Override
+            public void draw(Canvas canvas, Paint paint) {
+
+            }
+        };
+        ShapeDrawable d = new ShapeDrawable(shape);
+        return d;
+    }
+
 }
