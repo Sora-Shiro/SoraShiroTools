@@ -16,6 +16,37 @@ import android.graphics.drawable.shapes.Shape;
 
 public class ShapeUtil {
 
+    public static ShapeDrawable getRoundDrawable(int color) {
+        ShapeDrawable d = new ShapeDrawable(getRoundShape());
+        d.getPaint().setColor(color);
+        return d;
+    }
+
+    public static Shape getRoundShape() {
+        Shape shape = new Shape() {
+            float w;
+            float h;
+            Path path = new Path();
+
+            @Override
+            protected void onResize(float width, float height) {
+                this.w = width;
+                this.h = height;
+            }
+
+            @Override
+            public void draw(Canvas canvas, Paint paint) {
+                canvas.translate(w / 2, h / 2);
+                path.reset();
+                float small = w < h ? w : h;
+                path.addCircle(0, 0, small, Path.Direction.CW);
+                path.close();
+                canvas.drawPath(path, paint);
+            }
+        };
+        return shape;
+    }
+
     public static ShapeDrawable[] getArrows(int color) {
         ShapeDrawable aUp = ShapeUtil.getArrowDrawable("up", color);
         ShapeDrawable aDown = ShapeUtil.getArrowDrawable("down", color);
