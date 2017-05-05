@@ -21,7 +21,7 @@ public class AppSaveDataSPUtil {
     //Set Something
     //设置可存取的配置
     private static final String SOMETHING   = "something";
-    private static Context                  sContext;
+    private static WeakReference<Context>   sContext;
     private static SharedPreferences        sSharedPreferences;
     private static SharedPreferences.Editor sEditor;
 
@@ -34,7 +34,7 @@ public class AppSaveDataSPUtil {
         if (sContext != null) {
             sContext = null;
         }
-        sContext = context;
+        sContext = new WeakReference<>(context);
         sSharedPreferences = context.getSharedPreferences(DATA_CONFIG, Context.MODE_PRIVATE);
         sEditor = sSharedPreferences.edit();
         sEditor.commit();
