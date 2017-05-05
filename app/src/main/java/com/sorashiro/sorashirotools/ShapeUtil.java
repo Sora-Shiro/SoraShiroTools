@@ -39,7 +39,7 @@ public class ShapeUtil {
                 canvas.translate(w / 2, h / 2);
                 path.reset();
                 float small = w < h ? w : h;
-                path.addCircle(0, 0, small, Path.Direction.CW);
+                path.addCircle(0, 0, small / 2, Path.Direction.CW);
                 path.close();
                 canvas.drawPath(path, paint);
             }
